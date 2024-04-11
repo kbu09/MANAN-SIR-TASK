@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.page {
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.round {
+    width: 15%;
+    height: 29px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.round1 {
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    background-color: red;
+}
+
+.round2 {
+    border: 1px solid orange;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    background-color: orange;
+}
+
+.round3 {
+    border: 1px solid green;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    background-color: green;
+}
+
+.display {
+    height: 80px;
+    width: 300px;
+    border: black(10, 10, 10) 2px solid;
+}
+
+input {
+    height: 100%;
+    width: 299px;
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+.number {
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.box1 {
+    background: linear-gradient(to bottom right, rgb(81, 80, 80), rgb(15, 15, 15));
+    border-radius: 0px 0px 0px 10px;
+}
+
+.normal {
+    border: none;
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    color: white;
+}
+
+.diff {
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 70px;
+    border-color: white;
+}
+
+.diff1 {
+    background-color: orange;
+    border-radius: 0 0 10px 0;
+    width: 76px;
+}
+
+.normal1 {
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0 0 0 20px;
+    color: rgb(99, 98, 96);
+}
